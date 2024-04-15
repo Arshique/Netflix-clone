@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.main {
+    background: url(resources/1background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 107vh;
+}
+
+.main .blur-box {
+    width: 100%;
+    height: 107%;
+    opacity: 0.5;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}   
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.main nav .button #lang {
+    width: 126px;
+    height: 32px;
+    padding: 6px 28px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main nav .button button {
+    width: 77px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: rgb(229 9 20);
+    color: #fff;
+}
+
+.main nav .button button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.main nav .button #lang:focus {
+    border: 2px solid #fff;
+}
