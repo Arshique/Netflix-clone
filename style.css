@@ -444,3 +444,62 @@ input[type="checkbox"]{
     margin-top: 70px;
     width: 100%;
 }
+
+footer {
+    color: #ffffffB3;
+    margin: 72px 113px;
+    padding: 0px 48px;
+    position: absolute;
+    margin-top: 390px;
+}
+
+.call {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+footer .call a {
+    color: #ffffffB3;
+    font-size: 16px;
+}
+
+footer .row .col a  {
+    color: #ffffffB3;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer .row {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    row-gap: 50px;
+}
+
+footer .button #lang {
+    width: 126px;
+    height: 32px;
+    padding: 6px 28px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+footer .button #lang:focus {
+    border: 2px solid #fff;
+}
+
+footer p {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
